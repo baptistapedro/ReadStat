@@ -1,0 +1,7 @@
+image: index.docker.io/pedbap/readstat-fuzz@sha256:c623a542eb9e8c5a7ce71620502f9533fee3d1e58849a94f96267ebe92495a3b
+project: baptistapedro/readstat-fuzz
+target: readstat-fuzz-latest
+cmds:
+  - cmd: /usr/local/bin/readstat input.dta output.xpt
+    filepath: input.dta
+    env: {}
